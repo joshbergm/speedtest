@@ -23,7 +23,7 @@ upload_mbits = str(round(st.upload() / 1000000, 2))  # 1000000 bits = 1 Mbit
 # print("<-------------------------->")
 
 current_time = datetime.datetime.today().strftime('%Y_%m_%d_%H_%M_%S')  # Set current time for file name
-with open('/path/to/file' + "UP_DOWNLOAD" + '_' + str(current_time) + '.txt',
+with open('/path/to/folder/' + "UP_DOWNLOAD" + '_' + str(current_time) + '.txt',
           'w') as f:  # Open file to write data
     f.write("<-------------------------->")  # Fancy styling
     f.write("\n")  # New line
